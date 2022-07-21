@@ -176,7 +176,10 @@ hr {
 
 @media (min-width: 375px) {
   .card {
-    margin: 2.5em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     max-width: 350px;
   }
 }
